@@ -26,7 +26,13 @@ for message in conversation.memory.load_memory_variables({})['history']:
 
 if user_query := st.chat_input(placeholder='Send me some messages!'):
     st.chat_message('user').write(user_query)
-    response = conversation.predict(input=user_query)
+
+    try:
+        # XXX: fail to get results when the API regards the input as unsafe content!
+        response = conversation.predict(input=user_query)
+    except IndexError:
+        response = 'Error: Failed to get results. The input may be judged as unsafe content.'
+
     st.chat_message('assistant').markdown(response)
 
     conversation.memory.save_context({'input': user_query}, {'output': response})
