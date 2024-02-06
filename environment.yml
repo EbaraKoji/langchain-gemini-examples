@@ -49,6 +49,7 @@ dependencies:
     - decorator==5.1.1
     - defusedxml==0.7.1
     - executing==2.0.1
+    - faiss-cpu==1.7.4
     - fastjsonschema==2.19.1
     - fonttools==4.47.2
     - fqdn==1.5.1
@@ -143,6 +144,7 @@ dependencies:
     - pydeck==0.8.1b0
     - pygments==2.17.2
     - pyparsing==3.1.1
+    - pypdf2==3.0.1
     - python-dateutil==2.8.2
     - python-dotenv==1.0.1
     - python-json-logger==2.0.7
@@ -152,6 +154,7 @@ dependencies:
     - qtconsole==5.5.1
     - qtpy==2.4.1
     - referencing==0.33.0
+    - regex==2023.12.25
     - requests==2.31.0
     - rfc3339-validator==0.1.4
     - rfc3986-validator==0.1.1
@@ -170,6 +173,7 @@ dependencies:
     - streamlit==1.31.0
     - tenacity==8.2.3
     - terminado==0.18.0
+    - tiktoken==0.5.2
     - tinycss2==1.2.1
     - toml==0.10.2
     - toolz==0.12.1
