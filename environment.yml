@@ -51,9 +51,11 @@ dependencies:
     - executing==2.0.1
     - faiss-cpu==1.7.4
     - fastjsonschema==2.19.1
+    - filelock==3.13.1
     - fonttools==4.47.2
     - fqdn==1.5.1
     - frozenlist==1.4.1
+    - fsspec==2024.2.0
     - gitdb==4.0.11
     - gitpython==3.1.41
     - google-ai-generativelanguage==0.4.0
@@ -71,6 +73,7 @@ dependencies:
     - grpc-google-iam-v1==0.13.0
     - grpcio==1.60.0
     - grpcio-status==1.60.0
+    - huggingface-hub==0.20.3
     - idna==3.6
     - importlib-metadata==7.0.1
     - ipykernel==6.29.0
