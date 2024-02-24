@@ -5,6 +5,10 @@ from langchain_google_vertexai import VertexAI
 
 load_dotenv()
 
+# to use vertexai, please login with gcloud.
+# https://cloud.google.com/python/docs/reference/aiplatform/latest
+# https://googleapis.dev/python/google-api-core/latest/auth.html
+
 template = """Question: {question}
 Answer: Let's think step by step."""
 prompt = PromptTemplate(template=template, input_variables=["question"])
