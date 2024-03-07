@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  api:
+    image: <image_name>
+    build: .
+    ports:
+      - 8080:8080
+    command: uvicorn app.server:app --host 0.0.0.0 --port 8080
+    environment:
+      - GOOGLE_API_KEY=<YOUR_API_KEY>
+      # - GOOGLE_CSE_ID=<YOUR_API_KEY>
