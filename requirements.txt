@@ -29,12 +29,14 @@ colorama==0.4.6
 coloredlogs==15.0.1
 comm==0.2.1
 contourpy==1.2.0
+curl_cffi==0.6.2
 cycler==0.12.1
 dataclasses-json==0.6.3
 debugpy==1.8.0
 decorator==5.1.1
 defusedxml==0.7.1
 Deprecated==1.2.14
+duckduckgo_search==5.0
 executing==2.0.1
 faiss-cpu==1.7.4
 fastapi==0.109.2
@@ -45,7 +47,7 @@ fonttools==4.47.2
 fqdn==1.5.1
 frozenlist==1.4.1
 fsspec==2024.2.0
--e git+https://github.com/EbaraKoji/langchain-gemini-examples.git@e863da54ba89aaeb5e8e165249782a1c38ce11a2#egg=gemini_functions_agent&subdirectory=tmp/serve/packages/gemini-functions-agent
+-e git+https://github.com/EbaraKoji/langchain-gemini-examples.git@0a7211ab21c1624815fb4ee2214f7d685b6bcbdf#egg=gemini_functions_agent&subdirectory=tmp/serve/packages/gemini-functions-agent
 gitdb==4.0.11
 GitPython==3.1.41
 google-ai-generativelanguage==0.4.0
@@ -113,6 +115,7 @@ langgraph==0.0.26
 langserve==0.0.41
 langsmith==0.0.87
 llvmlite==0.42.0
+lxml==5.1.0
 markdown-it-py==3.0.0
 MarkupSafe==2.1.4
 marshmallow==3.20.2
