@@ -25,6 +25,7 @@ charset-normalizer==3.3.2
 chroma-hnswlib==0.7.3
 chromadb==0.4.24
 click==8.1.7
+cohere==5.2.2
 colorama==0.4.6
 coloredlogs==15.0.1
 comm==0.2.1
@@ -40,6 +41,7 @@ duckduckgo_search==5.0
 executing==2.0.1
 faiss-cpu==1.7.4
 fastapi==0.109.2
+fastavro==1.9.4
 fastjsonschema==2.19.1
 filelock==3.13.1
 flatbuffers==23.5.26
@@ -47,7 +49,7 @@ fonttools==4.47.2
 fqdn==1.5.1
 frozenlist==1.4.1
 fsspec==2024.2.0
--e git+https://github.com/EbaraKoji/langchain-gemini-examples.git@0a7211ab21c1624815fb4ee2214f7d685b6bcbdf#egg=gemini_functions_agent&subdirectory=tmp/serve/packages/gemini-functions-agent
+-e git+https://github.com/EbaraKoji/langchain-gemini-examples.git@e2c2628c261c526b4c11f4637cb72bcf1cdb5e4f#egg=gemini_functions_agent&subdirectory=tmp/serve/packages/gemini-functions-agent
 gitdb==4.0.11
 GitPython==3.1.41
 google-ai-generativelanguage==0.4.0
@@ -104,16 +106,18 @@ jupyterlab_pygments==0.3.0
 jupyterlab_server==2.25.2
 kiwisolver==1.4.5
 kubernetes==29.0.0
-langchain==0.1.4
+langchain==0.1.14
 langchain-cli==0.0.21
-langchain-community==0.0.16
-langchain-core==0.1.23
+langchain-cohere==0.1.0
+langchain-community==0.0.31
+langchain-core==0.1.40
 langchain-google-genai==0.0.9
 langchain-google-vertexai==0.0.3
+langchain-text-splitters==0.0.1
 langchainhub==0.1.14
 langgraph==0.0.26
 langserve==0.0.41
-langsmith==0.0.87
+langsmith==0.1.40
 llvmlite==0.42.0
 lxml==5.1.0
 markdown-it-py==3.0.0
